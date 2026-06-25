@@ -24,6 +24,7 @@ from basic filtering all the way to window functions, CTEs, and stored procedure
 
 # 🗂️ Database Schema
 
+![image alt](https://github.com/jk8108006-ctrl/Retails-Mart-SQL-Project/blob/6ad44c247044362daca5c69af277c68d2e4da512/retailsmart%20table%20connection.png)
 
 
 
