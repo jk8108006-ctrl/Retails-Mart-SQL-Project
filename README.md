@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 **RetailSmart** is a fictional e-commerce company selling across 8 Indian cities.  
 This project simulates a real analyst's work — answering business questions using SQL,  
@@ -13,21 +13,21 @@ from basic filtering all the way to window functions, CTEs, and stored procedure
 
  Property                             Detail 
 
- **Database**                         MySQL 8.0  
- **Tables**                           4 
- **Total Rows**                       ~180 (20 customers · 15 products · 45 orders · 95 order items) 
- **Date Range**                       January 2024 – August 2024 
- **Cities Covered**                   Chandigarh, Mohali, Delhi, Mumbai, Bangalore, Pune, Hyderabad, Ahmedabad 
- **Product Categories**               Electronics, Clothing, Books, Home & Kitchen, Sports 
+ **Database**                         |MySQL 8.0 | 
+ **Tables**                           |4 |
+ **Total Rows**                       |~180 (20 customers · 15 products · 45 orders · 95 order items)|
+ **Date Range**                       |January 2024 – August 2024 |
+ **Cities Covered**                   |Chandigarh, Mohali, Delhi, Mumbai, Bangalore, Pune, Hyderabad, Ahmedabad |
+ **Product Categories**               |Electronics, Clothing, Books, Home & Kitchen, Sports |
 
 ---
 
-## 🗂️ Database Schema
+# 🗂️ Database Schema
 
 
 ```
 
-### Table Descriptions
+# Table Descriptions
 
 | Table              | Rows              | Purpose |
 
@@ -38,25 +38,25 @@ from basic filtering all the way to window functions, CTEs, and stored procedure
 
 ---
 
-## 📚 SQL Topics Covered
+# 📚 SQL Topics Covered
 
-| # | Topic | File | Key Concepts |
-|---|---|---|---|
-| 1 | Basic SELECT | `01_basic_select.sql` | `WHERE`, `IN`, `ORDER BY`, `LIMIT` |
-| 2 | Aggregate Functions | `02_aggregate_functions.sql` | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND` |
-| 3 | GROUP BY + HAVING | `03_group_by_having.sql` | `GROUP BY`, `HAVING`, WHERE vs HAVING |
-| 4 | JOINs | `04_joins.sql` | `INNER JOIN`, `LEFT JOIN`, 4-table join |
-| 5 | Subqueries | `05_subqueries.sql` | Scalar, `IN`, Correlated, `NOT EXISTS` |
-| 6 | Date Functions | `06_date_functions.sql` | `MONTH()`, `YEAR()`, `DATEDIFF()`, `DATE_FORMAT()` |
-| 7 | CASE WHEN | `07_case_when.sql` | Price banding, Conditional aggregation, Pivot |
-| 8 | Window Functions | `08_window_functions.sql` | `RANK()`, `DENSE_RANK()`, `LAG()`, Running Total |
-| 9 | CTEs | `09_ctes.sql` | `WITH` clause, Chained CTEs, CTE vs Subquery |
-| 10 | Views | `10_views.sql` | `CREATE VIEW`, `OR REPLACE`, business dashboards |
-| 11 | Stored Procedures | `11_stored_procedure.sql` | `IN`/`OUT` params, `DELIMITER`, `DECLARE` |
+| # | Topic                      | File                           | Key Concepts |
+
+| 1 | Basic SELECT               |`01_basic_select.sql`           | `WHERE`, `IN`, `ORDER BY`, `LIMIT` |
+| 2 | Aggregate Functions        | `02_aggregate_functions.sql`   | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND` |
+| 3 | GROUP BY + HAVING          | `03_group_by_having.sql`       | `GROUP BY`, `HAVING`, WHERE vs HAVING |
+| 4 | JOINs                      | `04_joins.sql`                 | `INNER JOIN`, `LEFT JOIN`, 4-table join |
+| 5 | Subqueries                 | `05_subqueries.sql`            | Scalar, `IN`, Correlated, `NOT EXISTS` |
+| 6 | Date Functions             | `06_date_functions.sql`        | `MONTH()`, `YEAR()`, `DATEDIFF()`, `DATE_FORMAT()` |
+| 7 | CASE WHEN                  | `07_case_when.sql`             | Price banding, Conditional aggregation|
+| 8 | Window Functions           | `08_window_functions.sql`      | `RANK()`, `DENSE_RANK()`, `LAG()`, Running Total |
+| 9 | CTEs                       | `09_ctes.sql`                  | `WITH` clause, Chained CTEs, CTE vs Subquery |
+| 10 | Views                     | `10_views.sql`                 | `CREATE VIEW`, `OR REPLACE`, business dashboards |
+| 11 | Stored Procedures         | `11_stored_procedure.sql`      | `IN`/`OUT` params, `DELIMITER`, `DECLARE` |
 
 ---
 
-## 💼 Business Questions Answered
+# 💼 Business Questions Answered
 
 --  Topic 1: Basic SELECT
 -- Q1. Which customers are from the Chandigarh-Mohali region,
@@ -189,13 +189,9 @@ from basic filtering all the way to window functions, CTEs, and stored procedure
 
 
 
-## 👤 Author
+# 👤 Author
 
 Jay Kushwaha 
 Aspiring Data Scientist  
-
-
-
----
 
 > ⭐ If this project helped you, consider giving it a star!
