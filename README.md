@@ -23,6 +23,8 @@ from basic filtering all the way to window functions, CTEs, and stored procedure
 ---
 
 # 🗂️ Database Schema
+![Uploading retailsmart table connection.png…]()
+
 
 
 ```
